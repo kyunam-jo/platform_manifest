@@ -4,8 +4,11 @@
   <remote  name="aosp"
            fetch=".."
            review="https://android-review.googlesource.com/" />
+  <remote  name="codeaurora"
+           fetch="git://codeaurora.org/platform/manifest.git"
+           review="https://android-review.googlesource.com/" />
   <default revision="master"
-           remote="aosp"
+           remote="codeaurora"
            sync-j="4" />
 
   <manifest-server url="http://android-smartsync.corp.google.com/android.googlesource.com/manifestserver" />
